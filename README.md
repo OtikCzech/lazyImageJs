@@ -14,7 +14,7 @@
 - Show page
 
 ### Example
-Show **[Image lazyload (file example.html)](example.html) and you will see `src` transparent gif 1*1px** being replaced `data-src`
+Show **Image lazyload [example.html and you will see](https://otikczech.github.io/lazyImageJs/example.html) `src` transparent gif 1*1px** being replaced `data-src`
 
 Your typical code:
 `<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://picsum.photos/200" alt="image" />`
