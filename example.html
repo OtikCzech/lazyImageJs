@@ -12,29 +12,14 @@
     </style>
 </head>
 <body>
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-         data-src="https://picsum.photos/600?1"
-         alt=""
-    /><br/>
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-         data-src="https://picsum.photos/600?2"
-         alt=""
-    /><br/>
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-         data-src="https://picsum.photos/600?3"
-         alt=""
-    /><br/>
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-         data-src="https://picsum.photos/600?4"
-         alt=""
-    /><br/>
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-         data-src="https://picsum.photos/600?5"
-         alt=""
-    /><br/>
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-         data-src="https://picsum.photos/600?6"
-         alt=""
-    /><br/>
+<script>
+    for (let i = 0; i < 10; i++) {
+        document.write(`
+                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-src="https://picsum.photos/600?${i}"
+                    alt="" /><br/>
+            `);
+    }
+</script>
 </body>
 </html>
